@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="vT-4mcpCAwYt0j_FAQIg" name="LED Controller">
+        <mxGraphModel dx="182" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="main.cpp" style="swimlane;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="260" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div&gt;&lt;b&gt;Variables&lt;/b&gt;&lt;br/&gt;leds: CRGB[NUM_LEDS]&lt;br/&gt;runner: Scheduler&lt;br/&gt;hue: uint8_t&lt;br/&gt;delta: int8_t&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;" vertex="1" parent="2">
+                    <mxGeometry x="10" y="40" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div&gt;&lt;b&gt;Métodos&lt;/b&gt;&lt;br/&gt;+setup()&lt;br/&gt;+loop()&lt;br/&gt;+updateLEDsCallback()&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;" vertex="1" parent="2">
+                    <mxGeometry x="10" y="130" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="FastLED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

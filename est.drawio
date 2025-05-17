@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="qQ-NJUf8D_rQ2XS3DVpt" name="Estados Animación LED">
+        <mxGraphModel dx="384" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Animando LEDs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="130" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="updateLEDsCallback()" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=loopEdgeStyle;endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
