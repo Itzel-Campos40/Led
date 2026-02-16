@@ -83,7 +83,7 @@ Led2/
 └── README.md             # Este archivo
 ```
 
-## 📊 Diagramas
+## Diagramas
 
 El proyecto incluye varios diagramas en formato Draw.io:
 
@@ -107,6 +107,6 @@ El proyecto incluye varios diagramas en formato Draw.io:
 
 Este proyecto es de código abierto y está disponible para uso personal y educativo.
 
-## 👤 Autor
+## Autor
 
 **Itzel Campos** - [Itzel-Campos40](https://github.com/Itzel-Campos40)
