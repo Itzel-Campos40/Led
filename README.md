@@ -1,4 +1,4 @@
-# Led2
+# Led
 
 Proyecto de control de tira LED WS2812B utilizando NodeMCU (ESP8266) con efectos de color dinámicos.
 
@@ -43,7 +43,7 @@ Puedes ajustar los siguientes parámetros en `src/main.cpp`:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/Itzel-Campos40/Led2.git
+   git clone https://github.com/Itzel-Campos40/Led.git
    cd Led2
    ```
 
